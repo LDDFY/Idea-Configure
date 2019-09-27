@@ -4,6 +4,6 @@
     <option name="FONT_FAMILY" value="YaHei Consolas Hybrid" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\b(todo|fixme|todo)\b.*" />
+    <pattern pattern="\b(todo|fixme|note)\b.*" />
   </component>
 </application>
