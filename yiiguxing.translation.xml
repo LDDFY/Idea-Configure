@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Runnable Scheduled Futures" />
+      <item value="Specialized delay queue. To mesh with TPE declarations," />
+      <item value="TPE" />
       <item value="Whether" />
       <item value="/** * The number of times to spin (with randomly interspersed calls * to Thread.yield) on multiprocessor before blocking when a node * is apparently the first waiter in the queue. See above for * explanation. Must be a power of two. The value is empirically * derived -- it works pretty well across a variety of processors, * numbers of CPUs, and OSes. */" />
       <item value="* * Dual Queues, introduced by Scherer and Scott * (http://www.cs.rice.edu/~wns1/papers/2004-DISC-DDS.pdf) are * (linked) queues in which nodes may represent either data or * requests. When a thread tries to enqueue a data node, but * encounters a request node, it instead &quot;matches&quot; and removes it; * and vice versa for enqueuing requests. Blocking Dual Queues * arrange that threads enqueuing unmatched requests block until * other threads provide the match. Dual Synchronous Queues (see * Scherer, Lea, &amp; Scott * http://www.cs.rochester.edu/u/scott/papers/2009_Scherer_CACM_SSQ.pdf) * additionally arrange that threads enqueuing unmatched data also * block. Dual Transfer Queues support all of these modes, as * dictated by callers." />
@@ -12,8 +15,9 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="6" />
-        <entry key="ENGLISH" value="7" />
+        <entry key="CHINESE" value="8" />
+        <entry key="ENGLISH" value="9" />
+        <entry key="FRENCH" value="1" />
       </map>
     </option>
   </component>
