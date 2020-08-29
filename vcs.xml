@@ -14,22 +14,6 @@
           <option name="url" value="https://github.com/LDDFY/spring.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://github.app.hd123.cn:10080/phoenix/phoenix-dqsh.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://github.app.hd123.cn:10080" />
-          <option name="userName" value="changhao" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://gitee.com/LDDFY/network.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://gitee.com" />
-          <option name="userName" value="www.changhao@outlook.com" />
-        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\WorkSpace\Java\IntelliJ" />
