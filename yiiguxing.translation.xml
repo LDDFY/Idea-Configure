@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Aware" />
       <item value="permits Per Second" />
       <item value="Runnable Scheduled Futures" />
       <item value="Specialized delay queue. To mesh with TPE declarations," />
@@ -16,8 +17,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="9" />
-        <entry key="ENGLISH" value="10" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="11" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
