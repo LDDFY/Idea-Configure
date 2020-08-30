@@ -1,8 +1,23 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="* This implementation performs an actual refresh of this context's underlying * bean factory, shutting down the previous bean factory (if any) and * initializing a fresh bean factory for the next phase of the context's lifecycle." />
+      <item value="Separate between BeanPostProcessors that implement PriorityOrdered, // Ordered, and the rest." />
+      <item value="temporary" />
+      <item value="Delegate" />
+      <item value="* Modify the application context's internal bean factory after its standard * initialization. All bean definitions will have been loaded, but no beans * will have been instantiated yet. This allows for registering special * BeanPostProcessors etc in certain ApplicationContext implementations." />
+      <item value="Allows post-processing of the bean factory in context subclasses." />
+      <item value="Detect" />
+      <item value="Weaver" />
+      <item value="Load Time Weaver" />
+      <item value="detecting" />
       <item value="early" />
+      <item value="MessageSource registered (and found for autowiring) as a bean." />
+      <item value="BeanFactory interface not registered as resolvable type in a plain factory." />
+      <item value="Configure the bean factory with context callbacks." />
+      <item value="callbacks" />
+      <item value="such as the context's ClassLoader and post-processors." />
+      <item value="Configure the factory's standard context characteristics," />
+      <item value="* This implementation performs an actual refresh of this context's underlying * bean factory, shutting down the previous bean factory (if any) and * initializing a fresh bean factory for the next phase of the context's lifecycle." />
       <item value="on application shutdown in WebLogic 8.1. (Reported by Dustin Woods.)" />
       <item value="Eagerly load the ContextClosedEvent class to avoid weird classloader issues" />
       <item value="Invoke factory processors registered as beans in the context." />
@@ -28,8 +43,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="20" />
-        <entry key="ENGLISH" value="21" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="37" />
         <entry key="FRENCH" value="1" />
       </map>
     </option>
