@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="early" />
+      <item value="Configure the bean factory with context callbacks." />
+      <item value="Prepare the bean factory for use in this context." />
+      <item value="* Customize the internal bean factory used by this context. * Called for each {@link #refresh()} attempt. * &lt;p&gt;The default implementation applies this context's * {@linkplain #setAllowBeanDefinitionOverriding &quot;allowBeanDefinitionOverriding&quot;} * and {@linkplain #setAllowCircularReferences &quot;allowCircularReferences&quot;} settings, * if specified. Can be overridden in subclasses to customize any of" />
       <item value="Propagate" />
       <item value="processor" />
       <item value="scanning" />
@@ -34,10 +38,8 @@
       <item value="Weaver" />
       <item value="Load Time Weaver" />
       <item value="detecting" />
-      <item value="early" />
       <item value="MessageSource registered (and found for autowiring) as a bean." />
       <item value="BeanFactory interface not registered as resolvable type in a plain factory." />
-      <item value="Configure the bean factory with context callbacks." />
       <item value="callbacks" />
       <item value="such as the context's ClassLoader and post-processors." />
       <item value="Configure the factory's standard context characteristics," />
@@ -49,13 +51,11 @@
       <item value="Check for listener beans and register them." />
       <item value="Initialize other special beans in specific context subclasses." />
       <item value="* Template method which can be overridden to add context-specific refresh work. * Called on initialization of special beans, before instantiation of singletons." />
-      <item value="Event Multicaster" />
-      <item value="* Configure the factory's standard context characteristics, * such as the context's ClassLoader and post-processors." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="61" />
-        <entry key="ENGLISH" value="62" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
