@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* &lt;p&gt; If this thread is blocked in an invocation of the {@link * Object#wait() wait()}, {@link Object#wait(long) wait(long)}, or {@link * Object#wait(long, int) wait(long, int)} methods of the {@link Object} * class, or of the {@link #join()}, {@link #join(long)}, {@link * #join(long, int)}, {@link #sleep(long)}, or {@link #sleep(long, int)}, * methods of this class, then its interrupt status will be cleared and it * will receive an {@link InterruptedException}." />
+      <item value="Interrupts this thread." />
+      <item value="* &lt;p&gt; Unless the current thread is interrupting itself, which is * always permitted, the {@link #checkAccess() checkAccess} method * of this thread is invoked, which may cause a {@link * SecurityException} to be thrown." />
       <item value="early" />
       <item value="Configure the bean factory with context callbacks." />
       <item value="Prepare the bean factory for use in this context." />
@@ -48,14 +51,11 @@
       <item value="Eagerly load the ContextClosedEvent class to avoid weird classloader issues" />
       <item value="Invoke factory processors registered as beans in the context." />
       <item value="Last step: publish corresponding event." />
-      <item value="Check for listener beans and register them." />
-      <item value="Initialize other special beans in specific context subclasses." />
-      <item value="* Template method which can be overridden to add context-specific refresh work. * Called on initialization of special beans, before instantiation of singletons." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
