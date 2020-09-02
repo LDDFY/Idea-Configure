@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* A computation to be performed with privileges enabled, that throws one or * more checked exceptions. The computation is performed by invoking * {@code AccessController.doPrivileged} on the * {@code PrivilegedExceptionAction} object. This interface is * used only for computations that throw checked exceptions; * computations that do not throw * checked exceptions should use {@code PrivilegedAction} instead." />
       <item value="* &lt;p&gt; If this thread is blocked in an invocation of the {@link * Object#wait() wait()}, {@link Object#wait(long) wait(long)}, or {@link * Object#wait(long, int) wait(long, int)} methods of the {@link Object} * class, or of the {@link #join()}, {@link #join(long)}, {@link * #join(long, int)}, {@link #sleep(long)}, or {@link #sleep(long, int)}, * methods of this class, then its interrupt status will be cleared and it * will receive an {@link InterruptedException}." />
       <item value="Interrupts this thread." />
       <item value="* &lt;p&gt; Unless the current thread is interrupting itself, which is * always permitted, the {@link #checkAccess() checkAccess} method * of this thread is invoked, which may cause a {@link * SecurityException} to be thrown." />
@@ -50,12 +51,11 @@
       <item value="on application shutdown in WebLogic 8.1. (Reported by Dustin Woods.)" />
       <item value="Eagerly load the ContextClosedEvent class to avoid weird classloader issues" />
       <item value="Invoke factory processors registered as beans in the context." />
-      <item value="Last step: publish corresponding event." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="68" />
-        <entry key="ENGLISH" value="69" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
