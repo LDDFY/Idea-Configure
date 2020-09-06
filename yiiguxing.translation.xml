@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This class provides thread-local variables. These variables differ from * their normal counterparts in that each thread that accesses one (via its * {@code get} or {@code set} method) has its own, independently initialized * copy of the variable. {@code ThreadLocal} instances are typically private * static fields in classes that wish to associate state with a thread (e.g., * a user ID or Transaction ID)." />
       <item value="capacity" />
       <item value="This interface represents a factory for creating an object." />
       <item value="* A computation to be performed with privileges enabled, that throws one or * more checked exceptions. The computation is performed by invoking * {@code AccessController.doPrivileged} on the * {@code PrivilegedExceptionAction} object. This interface is * used only for computations that throw checked exceptions; * computations that do not throw * checked exceptions should use {@code PrivilegedAction} instead." />
@@ -50,12 +51,11 @@
       <item value="such as the context's ClassLoader and post-processors." />
       <item value="Configure the factory's standard context characteristics," />
       <item value="* This implementation performs an actual refresh of this context's underlying * bean factory, shutting down the previous bean factory (if any) and * initializing a fresh bean factory for the next phase of the context's lifecycle." />
-      <item value="on application shutdown in WebLogic 8.1. (Reported by Dustin Woods.)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="71" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="CHINESE" value="72" />
+        <entry key="ENGLISH" value="73" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
