@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Will not attempt to authenticate using SASL" />
       <item value="* Marks a constructor, field, setter method, or config method as to be autowired by * Spring's dependency injection facilities. This is an alternative to the JSR-330 * {@link javax.inject.Inject} annotation, adding required-vs-optional semantics." />
       <item value="This class provides thread-local variables. These variables differ from * their normal counterparts in that each thread that accesses one (via its * {@code get} or {@code set} method) has its own, independently initialized * copy of the variable. {@code ThreadLocal} instances are typically private * static fields in classes that wish to associate state with a thread (e.g., * a user ID or Transaction ID)." />
       <item value="capacity" />
@@ -50,12 +51,11 @@
       <item value="BeanFactory interface not registered as resolvable type in a plain factory." />
       <item value="callbacks" />
       <item value="such as the context's ClassLoader and post-processors." />
-      <item value="Configure the factory's standard context characteristics," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="74" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="75" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
