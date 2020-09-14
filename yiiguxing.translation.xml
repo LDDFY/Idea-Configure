@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The znode will be deleted upon the client's disconnect, and its name * will be appended with a monotonically increasing number." />
+      <item value="The znode will be deleted upon the client's disconnect." />
+      <item value="* The znode will not be automatically deleted upon client's disconnect, * and its name will be appended with a monotonically increasing number." />
+      <item value="The flags argument can also specify to create a sequential node. The * actual path name of a sequential node will be the given path plus a * suffix &quot;i&quot; where i is the current sequential number of the node. The sequence * number is always fixed length of 10 digits, 0 padded. Once * such a node is created, the sequential number will be incremented by one." />
+      <item value="* Create a node with the given path. The node data will be the given data, * and node acl will be the given acl." />
+      <item value="This ACL gives the creators authentication id's all permissions." />
+      <item value="This is a completely open ACL ." />
+      <item value="* This Id is only usable to set ACLs. It will get substituted with the * Id's the client authenticated with." />
       <item value="Will not attempt to authenticate using SASL" />
       <item value="* Marks a constructor, field, setter method, or config method as to be autowired by * Spring's dependency injection facilities. This is an alternative to the JSR-330 * {@link javax.inject.Inject} annotation, adding required-vs-optional semantics." />
       <item value="This class provides thread-local variables. These variables differ from * their normal counterparts in that each thread that accesses one (via its * {@code get} or {@code set} method) has its own, independently initialized * copy of the variable. {@code ThreadLocal} instances are typically private * static fields in classes that wish to associate state with a thread (e.g., * a user ID or Transaction ID)." />
@@ -43,19 +51,11 @@
       <item value="temporary" />
       <item value="* Modify the application context's internal bean factory after its standard * initialization. All bean definitions will have been loaded, but no beans * will have been instantiated yet. This allows for registering special * BeanPostProcessors etc in certain ApplicationContext implementations." />
       <item value="Allows post-processing of the bean factory in context subclasses." />
-      <item value="Detect" />
-      <item value="Weaver" />
-      <item value="Load Time Weaver" />
-      <item value="detecting" />
-      <item value="MessageSource registered (and found for autowiring) as a bean." />
-      <item value="BeanFactory interface not registered as resolvable type in a plain factory." />
-      <item value="callbacks" />
-      <item value="such as the context's ClassLoader and post-processors." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="74" />
-        <entry key="ENGLISH" value="75" />
+        <entry key="CHINESE" value="82" />
+        <entry key="ENGLISH" value="83" />
         <entry key="FRENCH" value="1" />
         <entry key="ROMANIAN" value="1" />
       </map>
